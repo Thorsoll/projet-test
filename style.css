@@ -1,0 +1,78 @@
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+nav #logo_container #logo {
+  width: 90px;
+}
+nav #link_container {
+  display: flex;
+  align-items: center;
+}
+nav #link_container ul {
+  display: flex;
+  gap: 3.2rem;
+}
+nav #link_container ul li {
+  list-style-type: none;
+}
+
+.encart {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+  gap: 5%;
+}
+.encart .encarts img {
+  width: 250px;
+}
+.encart .encarts figcaption {
+  text-align: center;
+}
+
+.blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+.blocks .box {
+  width: auto;
+  height: 4rem;
+  background-color: rgb(116, 250, 116);
+  border-radius: 0.5rem;
+  border: 1px solid black;
+}
+.blocks .parent_box {
+  width: 100%;
+}
+.blocks .box_secondgroup {
+  display: flex;
+  width: 100%;
+  gap: 0.5rem;
+}
+.blocks .box_secondgroup .group1 {
+  display: flex;
+  gap: 0.5rem;
+  padding-top: 0.5rem;
+}
+.blocks .box_secondgroup .group1 .box {
+  width: 50%;
+}
+.blocks .box_secondgroup .group2 {
+  width: 45%;
+}
+.blocks .box_secondgroup .group2 .box {
+  height: 100%;
+}
+.blocks .box_thirdgroup {
+  display: flex;
+  gap: 0.5rem;
+}
+.blocks .box_thirdgroup .box {
+  width: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
