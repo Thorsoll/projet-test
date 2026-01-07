@@ -19,6 +19,14 @@ nav {
       gap: 3.2rem;
       li {
         list-style-type: none;
+
+        a{
+            text-decoration: none;
+            color: black;
+            &:hover{
+                color: rgb(36, 163, 180);
+            }
+        }
       }
     }
   }
@@ -49,9 +57,12 @@ nav {
     .box{
         width: auto;
         height: 4rem;
-        background-color: rgb(116, 250, 116);
+        background-color: rgb(255, 147, 5);
         border-radius: 0.5rem;
         border: 1px solid black;
+        &:hover{
+            background-color: rgb(255, 230, 0);
+        }
     }
     .parent_box{
         width: 100%;
