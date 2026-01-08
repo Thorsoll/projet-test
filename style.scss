@@ -57,11 +57,11 @@ nav {
   .box {
     width: auto;
     height: 4rem;
-    background-color: rgb(255, 147, 5);
+    background-color: rgb(3, 95, 148);
     border-radius: 0.5rem;
     border: 1px solid black;
     &:hover {
-      background-color: rgb(255, 230, 0);
+      background-color: rgb(0, 0, 0);
     }
   }
   .parent_box {
@@ -93,9 +93,11 @@ nav {
   .box_thirdgroup {
     display: flex;
     gap: 0.5rem;
-    .box {
-      width: 50%;
+    .box{
+      width: 100%;
     }
+   
+
   }
 }
 
@@ -108,7 +110,8 @@ nav {
   .grid_box {
     width: 100%;
     height: 3rem;
-    background-color: yellow;
+    background-color: rgb(40, 0, 92);
+    color: white;
     border: 1px solid black;
     border-radius: 0.3rem;
     text-align: center;
@@ -138,7 +141,7 @@ nav {
   }
 
   .gh {
-    background-color: rgb(51, 255, 51) !important;
+    background-color: rgb(143, 143, 143) !important;
   }
 
   .gh1 {

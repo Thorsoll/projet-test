@@ -101,6 +101,43 @@
         <div class="grid_box gh gh7">7</div>
         <div class="grid_box gh gh8">8</div>
       </section>
+
+      <section>
+        <p>Formulaire</p>
+        <form action="" method="get">
+          <p>
+            <label for="prenom">prénom</label>
+            <input
+              type="text"
+              name="prenom"
+              placeholder="Votre prénom"
+              maxlength="20"
+              size="25"
+            />
+          </p>
+        </form>
+
+        <form action="" method="get">
+          <label for="pays">Pays</label><br />
+          <p>
+            <select name="pays" id="pays">
+              <option value="sénégal">sénégal</option>
+              <option value="royaume-uni">royaume-uni</option>
+              <option value="france">france</option>
+              <option value="marox">Maroc</option>
+            </select>
+          </p>
+
+          <fieldset>
+            <legend>Coordonnées</legend>
+            <label for="nom">Votre nom</label>
+            <input type="text" name="nom" id="nom" />
+            <label for="prenom">Votre prénom</label>
+            <input type="text" name="prenom" id="prenom" />
+          </fieldset>
+          <input type="submit" value="Valider">
+        </form>
+      </section>
     </main>
   </body>
 </html>
