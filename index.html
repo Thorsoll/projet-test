@@ -6,6 +6,7 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page de test</title>
   </head>
@@ -135,9 +136,68 @@
             <label for="prenom">Votre prénom</label>
             <input type="text" name="prenom" id="prenom" />
           </fieldset>
-          <input type="submit" value="Valider">
+          <input type="submit" value="Valider" />
         </form>
       </section>
+
+      <section>
+        <div class="section">
+          <img
+            class="imageSectionTest"
+            src="./img/istockphoto-814423752-612x612.jpg"
+            alt="image"
+          />
+          <p class="petit-texte">Une image de maquillage</p>
+
+          <!--Checkbox caché-->
+          <input type="checkbox" id="toggle-desc" class="toggle-desc" />
+          <label for="toggle-desc" class="arrow-container">
+            <span class="arrow-down">&darr; Voir plus</span>
+          </label>
+
+          <div class="description-box">
+            <p class="textBoxBlack">
+              Ceci est une description Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Tenetur veniam possimus sed? Lorem ipsum dolor
+              sit amet consectetur adipisicing elit. Commodi aspernatur ab
+              maxime facilis consectetur. Perspiciatis id tenetur natus
+              molestias labore.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-img-container">
+          <img src="./img/logo.png" alt="logo" />
+        </div>
+
+        <nav>
+          <ul class="footer-link">
+            <li><a href="#">Mentions Légales</a></li>
+            <li><a href="#">Confidentialité</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-socials">
+          <a href="#" aria-label="Facebook"
+            ><i class="fa-bands fa-facebook"></i>ic</a
+          >
+          <a href="#" aria-label="Instagram"
+            ><i class="fa-bands fa-instagram"></i>ic</a
+          >
+          <a href="#" aria-label="Twitter"
+            ><i class="fa-bands fa-twitter"></i>ic</a
+          >
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">&copy; Tout droits réservés</p>
+      </div>
+    </footer>
   </body>
 </html>
