@@ -193,9 +193,6 @@ nav #link_container ul li a:hover {
   transform: scale(1.5);
 }
 
-footer {
-  width: 100%;
-}
 footer .footer-container {
   width: 100%;
   display: flex;
@@ -209,6 +206,8 @@ footer .footer-container nav .footer-link {
   margin: 0 auto;
   display: flex;
   gap: 3rem;
+  padding: 0;
+  list-style-type: none;
 }
 footer .footer-container .footer-socials {
   display: flex;
